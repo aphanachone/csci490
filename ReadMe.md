@@ -1,5 +1,5 @@
-# CSCI 490 Capstone - Title
+# CSCI 490 Capstone
 
 **Austin Phanachone**
 
-## Gesture Controlled Robot - Title
+## Gesture Controlled Robot
