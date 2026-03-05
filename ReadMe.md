@@ -13,6 +13,8 @@ The current model will misidentify the signs or have a low confidence percentage
 
 You can also upload your own images to see how it runs.
 
+The MediaPipe Implementation can be ignored.
+
 ---
 
 ## 1. Project Title & Purpose
