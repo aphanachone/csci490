@@ -13,6 +13,10 @@ The current model will misidentify the signs or have a low confidence percentage
 
 You can also upload your own images to see how it runs.
 
+The MediaPipe Implementation can be ignored.
+
+[Roboflow Dataset](https://app.roboflow.com/aphanachone/sign-language-project-colorful-d0wkv/)
+
 ---
 
 ## 1. Project Title & Purpose
