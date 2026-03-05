@@ -4,6 +4,17 @@ Austin Phanachone
 
 ---
 
+# How to Run/Test
+
+I would recommend running the notebook on Google colab. It should take no more than 20 minutes to complete training.
+After this, the last cell will continuously run and prompt you to upload an image.
+There is a provided folder of test sign language images of the particularly diffucult signs to identify.
+The current model will misidentify the signs or have a low confidence percentage.
+
+You can also upload your own images to see how it runs.
+
+---
+
 ## 1. Project Title & Purpose
 
 # Sign Language Detection with YOLOv11
