@@ -3,13 +3,6 @@
 Austin Phanachone
 
 ---
-
-# How to Run/Test
-
-Here's the writeup:
-
----
-
 ## How to Run
 
 ### Training the Model
