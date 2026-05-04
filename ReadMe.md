@@ -6,16 +6,43 @@ Austin Phanachone
 
 # How to Run/Test
 
-I would recommend running the notebook on Google colab. It should take no more than 20 minutes to complete training.
-After this, the last cell will continuously run and prompt you to upload an image.
-There is a provided folder of test sign language images of the particularly diffucult signs to identify.
-The current model will misidentify the signs or have a low confidence percentage.
+Here's the writeup:
 
-You can also upload your own images to see how it runs.
+---
 
-The MediaPipe Implementation can be ignored.
+## How to Run
 
-[Roboflow Dataset](https://app.roboflow.com/aphanachone/sign-language-project-colorful-d0wkv/)
+### Training the Model
+
+** Not recommended — training takes about 3 hours on a Colab T4 GPU. The trained `best.pt` is already provided, so you can skip directly to running the webcam app.**
+
+If you do want to retrain from scratch:
+
+- Open `asl_yolov11_train.ipynb` in Google Colab
+- Click **Runtime → Change runtime type → T4 GPU**
+- Replace `[Insert-API-Key-Here]` in section 2 with a Roboflow API key
+- Click **Runtime → Run all**
+   - With the set hyperparameters, training takes ~2.5 hours, almost the entire allotted T4 use for a free Colabaccount
+- Download `best.pt` from Colab files `/content/runs/detect/train/weights/`
+
+### Running the Webcam App
+
+- Place `best.pt` in the same folder as `asl_yolo_webcam.py`
+- Open a terminal in that folder
+- Install ultiralytics dependencies
+  ```
+  pip install ultralytics opencv-python
+  ```
+- Run the program:
+  ```
+  python asl_yolo_webcam.py
+  ```
+- Click **Settings** to adjust camera index, confidence threshold, mirror view, and FPS overlay
+- Click **Begin Test** to start live detection
+- Press **Q**, click **QUIT**, or close the window to end the session
+
+---
+[Roboflow Dataset]([https://app.roboflow.com/aphanachone/sign-language-project-colorful-d0wkv/](https://app.roboflow.com/aphanachone/asl-alphanumeric-signs-2/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true))
 
 ---
 
