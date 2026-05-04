@@ -35,7 +35,7 @@ If you do want to retrain from scratch:
 - Press **Q**, click **QUIT**, or close the window to end the session
 
 ---
-[Roboflow Dataset]([https://app.roboflow.com/aphanachone/sign-language-project-colorful-d0wkv/](https://app.roboflow.com/aphanachone/asl-alphanumeric-signs-2/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true))
+[Roboflow Dataset](https://app.roboflow.com/aphanachone/asl-alphanumeric-signs-2/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true)
 
 ---
 
