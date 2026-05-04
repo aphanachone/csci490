@@ -7,7 +7,7 @@ Austin Phanachone
 
 ### Training the Model
 
-** Not recommended — training takes about 3 hours on a Colab T4 GPU. The trained `best.pt` is already provided, so you can skip directly to running the webcam app.**
+**Not recommended — training takes about 3 hours on a Colab T4 GPU. The trained `best.pt` is already provided, so you can skip directly to running the webcam app.**
 
 If you do want to retrain from scratch:
 
